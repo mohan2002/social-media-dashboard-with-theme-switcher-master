@@ -27,8 +27,9 @@ body{
     position: relative;
     width: 75%;
     margin-left: 12%;
-    margin-right: 12%;
-    margin-top: 11px;
+    margin-right: 12%;=
+    height: 100%;
+
 }
 Header{
     display: flex;
