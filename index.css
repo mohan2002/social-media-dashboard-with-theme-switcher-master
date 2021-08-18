@@ -28,6 +28,7 @@ body{
     width: 75%;
     margin-left: 12%;
     margin-right: 12%;
+    margin-top: 5px;
 }
 Header{
     display: flex;
