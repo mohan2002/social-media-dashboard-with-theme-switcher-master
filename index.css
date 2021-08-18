@@ -40,6 +40,9 @@ Header{
     display: inline-flex;
     margin-top: 5px;
 }
+.hdr-left h2{
+    font-size: 26px;
+}
 .hdr-left p {
  margin-top: -18px;
  font-size: 15px;
@@ -62,7 +65,9 @@ Header{
     padding: 2px;
     cursor: pointer;
 }
-
+.toggle-bg{
+    background-color: hsl(230, 22%, 74%);
+}
 .toggle-btn > .inner-circle{
     width:15px;
     height:15px;
@@ -279,6 +284,9 @@ Header{
 }
 
 @media all and (max-width:360px){
+    .hdr-left h2{
+        font-size: 24px;
+    }
     .bottom-cards div img{
         margin-left: 120px;
     }
@@ -288,6 +296,8 @@ Header{
     .per-red{
         margin-left: 80px;
     }
-    
+    .toggle{
+        margin-left: 10px;
+    }
 }
 
