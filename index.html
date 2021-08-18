@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <script src="scripts.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body id="switch">
+
+<div class="pattern"></div>
+<div class="main">
+
+
+  <Header>
+    <div class="hdr-left">
+      <h2>Social Media Dashboard</h2>
+      <p>Total Followers: 23,004</p>
+    </div>
+
+    <div class="hdr-right">
+      <p>Dark Mode</p>
+      <div class="toggle">
+        <div class="toggle-btn" id="click">
+          <div class="inner-circle"></div>
+        </div>
+      </div>
+    </div>
+  </Header>
+  
+
+  
+<div class="container">
+
+  <div class="top-cards" >
+    <div class="bg-topcard fb-m" id="topcard">
+      <p class="id"><img src="images/icon-facebook.svg" class="id-img fb" alt="" srcset="">@nathanf</p>
+      <h1>1987</h1>
+      <p class="followers">Followers</p>
+      <p class="daily-count">
+      <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+      12 Today</p>
+    </div>
+    
+    <div class="bg-topcard tw-m" id="topcard">
+      <p class="id"><img src="images/icon-twitter.svg" alt="" srcset="" class="id-img">@nathanf</p>
+      <h1>1044</h1>
+      <p class="followers">Followers</p>
+      <p class="daily-count">
+      <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        99 Today</p>
+    </div>
+
+    <div class="bg-topcard in-m" id="topcard">
+     <p class="id"><img src="images/icon-instagram.svg" alt="" srcset="" class="id-img">@realnathanf</p>
+      <h1>11k</h1>
+    <p class="followers">Followers</p>
+    <p class="daily-count">
+      <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+      1099 Today</p>
+    </div>
+    <div class="bg-topcard yo-m" id="topcard">
+     <p class="id"><img src="images/icon-youtube.svg" alt="" srcset="" class="id-img"> Nathan F.</p> 
+    <h1>8239</h1>
+    <p class="followers">Subscribers</p>
+    <p class="daily-count-dec">
+      <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+      144 Today</p>
+    </div> 
+    
+  </div>
+
+
+  <div>
+    <h3> Overview - Today</h3>
+  </div>
+  <div class="bottom-cards">
+   
+    
+    <div class="btm-card">
+      <p class="features">Page Views</p>
+      <img src="images/icon-facebook.svg" alt="" srcset="">
+      <p class="num">87</p>
+      <p class="per">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        3%</p>
+    </div>
+    
+
+    <div class="btm-card">
+      <p class="features">Likes</p>
+      <img src="images/icon-facebook.svg" alt="" srcset="">
+      <p class="num">52</p>
+      <p class="per">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        2%</p>
+    </div>
+    
+    <div class="btm-card">
+      <p class="features">Likes</p>
+      <img src="images/icon-instagram.svg" alt="" srcset="">
+      <p class="num">5462</p>
+      <p class="per">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        2257%</p>
+    </div>
+    
+    <div class="btm-card">
+      <p class="features">Profile Views</p>
+      <img src="images/icon-instagram.svg" alt="" srcset="">
+      <p class="num">52k</p>
+      <p class="per">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        1375%</p>
+    </div>
+    
+    <div class="btm-card">
+      <p class="features">Retweets</p>
+      <img src="images/icon-twitter.svg" alt="" srcset="">
+      <p class="num">117</p>
+      <p class="per">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        303%</p>
+    </div>
+    
+    <div class="btm-card">
+      <p class="features">Likes</p>
+      <img src="images/icon-twitter.svg" alt="" srcset="">
+      <p class="num">507</p>
+      <p class="per">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#1EB589" fill-rule="evenodd" d="M0 4l4-4 4 4z"/></svg>
+        553%</p>
+    </div>
+    
+    <div class="btm-card">
+      <p class="features">Likes</p>
+      <img src="images/icon-youtube.svg" alt="" srcset="">
+      <p class="num">107</p>
+      <p class="per-red">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+        19%</p>
+    </div>
+    
+    <div class="btm-card">
+      <p class="features">Total Views</p>
+      <img src="images/icon-youtube.svg" alt="" srcset="">
+      <p class="num">1407</p>
+      <p class="per-red">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
+        12%</p>
+    </div>
+      
+</div>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
